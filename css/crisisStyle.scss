@@ -1,0 +1,161 @@
+/*_crisisStyle.scss*/
+
+@import '_variables';
+
+
+
+/*global*/
+
+a{
+	@include links;
+}
+
+body.custom-background{
+	background-color: $backgroundTwo !important;
+}
+
+body.custom-background-empty .site, body.custom-background-white .site{
+	margin-top: 0;
+	background-color: $backgroundOne ;
+}
+.site-header{
+	border: none;
+}
+.themonic-logo{
+	margin: 0;
+	padding: 0;
+	margin-bottom: -2px;
+}
+.themonic-logo img{
+	width: 1040px;
+}
+.themonic-nav {
+box-shadow: none;
+}
+
+
+
+/*main nav*/
+.js .selectnav{
+	display: none;
+}
+
+@media screen and (max-width: 767px){
+	.themonic-nav ul{
+		display: block;
+		li:hover{
+			display:block;
+		}
+	}
+
+	.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul, .themonic-nav li, .themonic-nav li a, .themonic-nav li {
+		display: block;
+		background: $backgroundFour;
+
+	}
+
+	.themonic-nav li a, .themonic-nav li a{
+		padding: 10px;
+		text-align: left;
+	}
+
+	.sub-menu 
+	{
+		border-bottom: 1px solid $link;
+		li a{
+			padding-left: 30px;
+		}
+	}
+}
+@media screen and (min-width: 768px){
+	.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul, .themonic-nav li{display: inline-block;}
+	.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul {
+	background: $backgroundFour;
+	border: none;
+	}
+	.themonic-nav li{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.themonic-nav li a{
+		@include links
+	}
+	.themonic-nav .current-menu-item > a, .themonic-nav .current-menu-ancestor > a, 
+	.themonic-nav .current_page_item > a, .themonic-nav .current_page_ancestor > a,
+	.themonic-nav li:hover {
+		background: $backgroundFour;
+	}
+
+
+	.themonic-nav ul li:hover > ul{
+		border-top: 1px solid #ffffff;
+	}
+	.themonic-nav li ul li a{
+		@include links;
+		background: $backgroundFour;
+		border-bottom: 1px solid #ffffff;
+	}
+}
+
+/*main content*/
+.wrapper{
+	border: none;
+}
+
+
+.entry-header .entry-title{
+	text-transform: uppercase;
+	margin: 0;
+}
+.entry-header .entry-title a:hover{
+	color: yellow;
+	background: $backgroundFour;
+}
+
+.site-wordpress {
+padding: 50px 0px;
+float: none;
+text-align: center;
+}
+
+
+
+.below-title-meta{
+	background: transparent;
+	width: 100%;
+	margin: 0;
+}
+
+.adt{
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+.categories a{
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.post-date{
+	float: right;
+	color: $info;
+}
+
+
+/*footer*/
+.footer_menu{
+	border-top: 2px solid $backgroundTwo;
+	padding: 30px;
+	margin: 0 20px;
+}
+.footer_menu li{
+	display: inline;
+	a{
+		@include links;
+		font-weight: bold;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+}
+.footer_menu li.current-menu-item {
+	background: transparent;
+}

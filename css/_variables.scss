@@ -1,0 +1,32 @@
+/*_variables.scss*/
+
+/*colors*/
+$link: #EA328C;
+$linkHover: #FDEF39;
+$linkHoverBG: #000000;
+$info:#a3a3a3;
+$backgroundOne: #ffffff;
+$backgroundTwo: #eeeeee;
+$backgroundThree:#cccccc;
+$backgroundFour:#000000;
+
+/*mixins*/
+@mixin reset 
+{
+	margin: 0;
+	padding: 0;
+	border: 0 transparent;
+}
+
+@mixin links
+{
+	color: $link;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s ease 0s;
+	&:hover{
+		color: $linkHover;
+		background-color: $linkHoverBG;
+		text-decoration: none;
+	}
+}

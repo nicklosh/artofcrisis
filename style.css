@@ -1,0 +1,11 @@
+/*
+Theme Name: CRISIS
+Theme URI: http://artofcrisis.com.au
+Description: Child of iconic-one for CRISIS
+Author: Nick Long
+Author URI: http://nicklong.id.au
+Template: iconic-one
+Version: 0.1
+*/
+@import url("../iconic-one/style.css");
+@import url("../iconic-one_CRISIS/css/crisisStyle.css");
