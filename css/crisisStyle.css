@@ -84,7 +84,8 @@ body.custom-background-empty .site, body.custom-background-white .site {
     background: black; }
 
   .themonic-nav ul li:hover > ul {
-    border-top: 1px solid #ffffff; }
+    border-top: 1px solid #ffffff;
+    z-index: 200; }
 
   .themonic-nav li ul li a {
     color: #ea328c;

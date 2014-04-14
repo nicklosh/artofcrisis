@@ -19,7 +19,7 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 
-		<h1>Slider will go here</h1>
+		<?php if( function_exists('cyclone_slider') ) cyclone_slider('front-page-slider'); ?>
 		
 		<?php if ( have_posts() ) : ?>
 
