@@ -158,6 +158,14 @@ text-align: center;
 	}
 }
 
+
+/*instagram*/
+.widget-area .widget{
+	a{
+		@include links;
+	}
+}
+
 /*footer*/
 .footer_menu{
 	border-top: 2px solid $backgroundTwo;
