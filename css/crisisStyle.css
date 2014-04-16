@@ -119,6 +119,10 @@ body.custom-background-empty .site, body.custom-background-white .site {
   background: transparent;
   width: 100%;
   margin: 0; }
+  .below-title-meta a {
+    color: #ea328c; }
+    .below-title-meta a:hover {
+      color: #fdef39; }
 
 .adt {
   padding-left: 0;
