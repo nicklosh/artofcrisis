@@ -138,12 +138,10 @@ body.custom-background-empty .site, body.custom-background-white .site {
 
 @media screen and (min-width: 600px) {
   .excerpt-thumb {
-    position: absolute;
-    /*background: red;*/ }
+    position: absolute; }
 
   .excerpt-article {
-    margin-left: 200px;
-    /*background: green;*/ } }
+    margin-left: 200px; } }
 /*instagram*/
 .widget-area .widget a {
   color: #ea328c;
@@ -154,6 +152,9 @@ body.custom-background-empty .site, body.custom-background-white .site {
     color: #fdef39;
     background-color: black;
     text-decoration: none; }
+
+.instatime {
+  color: #a3a3a3; }
 
 /*footer*/
 .footer_menu {

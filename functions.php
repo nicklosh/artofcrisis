@@ -1,7 +1,8 @@
 <?php 
 
 function iconic_one_crisis_scripts(){
-	wp_enqueue_script('extra js', get_stylesheet_directory_uri() . '/js/extra.js');
+	wp_enqueue_script('extra js', get_stylesheet_directory_uri() . '/js/extra.js', array('jquery'));
+
 }
 
 

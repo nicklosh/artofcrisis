@@ -150,11 +150,9 @@ text-align: center;
 @media screen and (min-width: 600px){
 	.excerpt-thumb{
 		position: absolute;
-		/*background: red;*/
 	}
 	.excerpt-article{
 		margin-left: 200px;
-		/*background: green;*/
 	}
 }
 
@@ -164,6 +162,10 @@ text-align: center;
 	a{
 		@include links;
 	}
+}
+.instatime
+{
+	color: $info;
 }
 
 /*footer*/
