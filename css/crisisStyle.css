@@ -136,6 +136,14 @@ body.custom-background-empty .site, body.custom-background-white .site {
   float: right;
   color: #a3a3a3; }
 
+@media screen and (min-width: 600px) {
+  .excerpt-thumb {
+    position: absolute;
+    /*background: red;*/ }
+
+  .excerpt-article {
+    margin-left: 200px;
+    /*background: green;*/ } }
 /*footer*/
 .footer_menu {
   border-top: 2px solid #eeeeee;

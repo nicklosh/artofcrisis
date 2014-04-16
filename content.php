@@ -19,10 +19,11 @@
 		<div class="excerpt-thumb">
 		    <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())) : ?>
 		        <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'themonic' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">
-		            <?php the_post_thumbnail('excerpt-thumbnail', 'class=alignleft'); ?>
+		            <?php the_post_thumbnail('crisis-thumbnail'); ?>
 		       		</a>
 		    <?php endif;?>
 		</div>
+		<div class="excerpt-article">
 		<?php endif; ?>
 
 		<header class="entry-header">
@@ -84,4 +85,7 @@
 				</div><!-- .author-info -->
 			<?php endif; ?>
 		</footer><!-- .entry-meta -->
+		<?php if ( !is_single() ) : ?>
+		</div><!-- end excerpt-article -->	
+		<?php endif; ?>
 	</article><!-- #post -->

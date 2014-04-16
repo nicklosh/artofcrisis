@@ -20,5 +20,7 @@ function iconic_one_crisis_widgets_init(){
 
 add_action('widgets_init', 'iconic_one_crisis_widgets_init');
 
+add_image_size('crisis-thumbnail', 180, 180, true);
+
 
 ?>
