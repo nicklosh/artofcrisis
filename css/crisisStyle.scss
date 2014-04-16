@@ -66,8 +66,12 @@ box-shadow: none;
 			padding-left: 30px;
 		}
 	}
+
 }
 @media screen and (min-width: 768px){
+	#menuToggleUl{
+		display: none;
+	}
 	.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul, .themonic-nav li{display: inline-block;}
 	.themonic-nav ul.nav-menu, .themonic-nav div.nav-menu > ul {
 	background: $backgroundFour;

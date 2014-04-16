@@ -3,15 +3,14 @@ jQuery(document).ready(function($){
 	{
 		init:function()
 		{
+			$('#site-navigation').append('<ul id="menuToggleUl"><li><a href="#" id="menuToggle">Menu</a></li></ul>');
+			responsiveMenu.slideUp();
+		},
+		slideUp:function(){
 			if ($(window).width() < 768 ) {
-				$('#site-navigation').append('<ul><li><a href="#" id="menuToggle">Menu</a></li></ul>');
 				$('#menu-top').slideUp();
 				responsiveMenu.toggleListener();
 			}
-			// else {
-			// 	var removeUl = $("#menuToggle").closest('ul');
-			// 	$(removeUl).remove();
-			// }
 		},
 		toggleListener:function(){
 			if($("#menuToggle")){
@@ -27,7 +26,7 @@ jQuery(document).ready(function($){
 	responsiveMenu.init();
 	// $(window).resize(function()
 	// 	{
-	// 		responsiveMenu.init();
+	// 		responsiveMenu.slideUp();
 	// 	});
 	// console.log("responsiveMenu working")
 
