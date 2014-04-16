@@ -41,6 +41,9 @@ box-shadow: none;
 }
 
 @media screen and (max-width: 767px){
+	#menu-top{
+		display: none;
+	}
 	.themonic-nav ul{
 		display: block;
 		li:hover{

@@ -39,6 +39,9 @@ body.custom-background-empty .site, body.custom-background-white .site {
   display: none; }
 
 @media screen and (max-width: 767px) {
+  #menu-top {
+    display: none; }
+
   .themonic-nav ul {
     display: block; }
     .themonic-nav ul li:hover {
