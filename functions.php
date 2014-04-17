@@ -23,5 +23,9 @@ add_action('widgets_init', 'iconic_one_crisis_widgets_init');
 
 add_image_size('crisis-thumbnail', 180, 180, true);
 
+function new_excerpt_more( $more ) {
+	return '&hellip; <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('More', 'your-text-domain') . '</a>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 ?>
