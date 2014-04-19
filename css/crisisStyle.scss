@@ -64,7 +64,6 @@ box-shadow: none;
 
 	.sub-menu 
 	{
-		border-bottom: 1px solid $link;
 		li a{
 			padding-left: 30px;
 		}
@@ -188,6 +187,9 @@ text-align: center;
 		font-weight: bold;
 		font-size: 14px;
 		margin: 0 10px;
+	}
+	.sub-menu{
+		display: none;
 	}
 }
 .footer_menu li.current-menu-item {

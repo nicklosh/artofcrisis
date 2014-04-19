@@ -55,10 +55,8 @@ body.custom-background-empty .site, body.custom-background-white .site {
     padding: 10px;
     text-align: left; }
 
-  .sub-menu {
-    border-bottom: 1px solid #ea328c; }
-    .sub-menu li a {
-      padding-left: 30px; } }
+  .sub-menu li a {
+    padding-left: 30px; } }
 @media screen and (min-width: 768px) {
   #menuToggleUl {
     display: none; }
@@ -182,6 +180,8 @@ body.custom-background-empty .site, body.custom-background-white .site {
       color: #fdef39;
       background-color: black;
       text-decoration: none; }
+  .footer_menu li .sub-menu {
+    display: none; }
 
 .footer_menu li.current-menu-item {
   background: transparent; }
