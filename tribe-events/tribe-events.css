@@ -20,7 +20,7 @@
 {
 	border-bottom: 0;
 }
-.tribe-events-list .vevent.hentry h2
+.tribe-events-list .vevent.hentry h2, .single-tribe_events h2.tribe-events-single-event-title
 {
 	font-size: 28px;
 	font-weight: normal;
@@ -32,3 +32,4 @@
 .tribe-events-list .vevent.hentry h2 a:hover{
 	color: #FDEF39;
 }
+
