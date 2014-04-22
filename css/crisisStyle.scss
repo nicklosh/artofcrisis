@@ -2,6 +2,14 @@
 
 @import '_variables';
 
+/*index*/
+	/*global*/
+	/*main nav*/
+	/*main content*/
+	/*sidebar*/
+	/*instagram*/
+	/*footer*/
+
 
 
 /*global*/
@@ -33,7 +41,16 @@ body.custom-background-empty .site, body.custom-background-white .site{
 box-shadow: none;
 }
 
-
+.site-content{
+	padding-top: 0;
+	border-right:5px solid $backgroundFour;
+	article{
+		border-bottom: 2px solid $backgroundFour;
+	}
+}
+.widget-area{
+	margin-top: 0;
+}
 
 /*main nav*/
 .js .selectnav{
@@ -67,6 +84,9 @@ box-shadow: none;
 		li a{
 			padding-left: 30px;
 		}
+	}
+	.site-content{
+		border-right: 0;
 	}
 
 }
@@ -162,6 +182,9 @@ text-align: center;
 	}
 }
 
+
+/*sidebar*/
+
 ul.crisismedia, .widget-area .textwidget ul.crisismedia
 {
 	list-style: none;
@@ -171,12 +194,26 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow:ellipsis;
-		i.icon-facebook-sign{}
-		i.icon-instagram{}
 	}
 }
+.widget-area .widget-title{
+	background: $backgroundFour;
+	text-transform: uppercase;
+	color: #ffffff;
+}
 
-/*instagram*/
+.widget-area aside
+{
+	border-bottom: 2px solid $backgroundFour;
+
+}
+
+.widget-area .widget li, .widget-area .widget .textwidget
+{
+	padding-top: 0;
+	border-bottom: 0;
+	/*border-bottom: 2px solid $backgroundFour;*/
+}
 .widget-area .widget{
 	a{
 		@include links;
@@ -189,8 +226,11 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia
 
 
 /*footer*/
+.site-wordpress{
+	padding-top: 10px;
+}
 .footer_menu{
-	border-top: 2px solid $backgroundTwo;
+	border-top: 2px solid $backgroundFour;
 	padding: 30px;
 	margin: 0 20px;
 }
