@@ -185,8 +185,7 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia {
 
 .widget-area .widget li, .widget-area .widget .textwidget {
   padding-top: 0;
-  border-bottom: 0;
-  /*border-bottom: 2px solid $backgroundFour;*/ }
+  border-bottom: 0; }
 
 .widget-area .widget a {
   color: #ea328c;
