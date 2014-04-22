@@ -146,6 +146,15 @@ body.custom-background-empty .site, body.custom-background-white .site {
 
   .excerpt-article {
     margin-left: 200px; } }
+ul.crisismedia, .widget-area .textwidget ul.crisismedia {
+  list-style: none; }
+  ul.crisismedia li, .widget-area .textwidget ul.crisismedia li {
+    margin: 0;
+    border-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+
 /*instagram*/
 .widget-area .widget a {
   color: #ea328c;

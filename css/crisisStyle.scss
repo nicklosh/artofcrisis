@@ -162,6 +162,19 @@ text-align: center;
 	}
 }
 
+ul.crisismedia, .widget-area .textwidget ul.crisismedia
+{
+	list-style: none;
+	li{
+		margin: 0;
+		border-bottom: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		i.icon-facebook-sign{}
+		i.icon-instagram{}
+	}
+}
 
 /*instagram*/
 .widget-area .widget{
@@ -173,6 +186,7 @@ text-align: center;
 {
 	color: $info;
 }
+
 
 /*footer*/
 .footer_menu{
