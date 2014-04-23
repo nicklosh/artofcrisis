@@ -46,11 +46,12 @@ box-shadow: none;
 	border-right:5px solid $backgroundFour;
 	article{
 		border-bottom: 2px solid $backgroundFour;
+		&:last-child{
+			border-bottom:0;
+		}
 	}
 }
-.widget-area{
-	margin-top: 0;
-}
+
 
 /*main nav*/
 .js .selectnav{
@@ -121,6 +122,10 @@ box-shadow: none;
 		@include links;
 		background: $backgroundFour;
 		border-bottom: 1px solid #ffffff;
+		
+	}
+	.themonic-nav li ul li:last-child a{
+		border-bottom: 0;
 	}
 }
 
@@ -129,10 +134,21 @@ box-shadow: none;
 	border: none;
 }
 
+.archive-header, .page-header
+{
+	border-bottom: 2px solid $backgroundFour;
+}
+.archive-title, .page-title{
+	font-size: 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #444;
+}
 
 .entry-header .entry-title{
 	text-transform: uppercase;
 	margin: 0;
+
 }
 .entry-header .entry-title a:hover{
 	color: yellow;
@@ -185,6 +201,18 @@ text-align: center;
 
 /*sidebar*/
 
+.widget-area{
+	margin-top: 0;
+	aside
+	{
+	border-bottom: 2px solid $backgroundFour;
+		&:last-child
+		{
+			border-bottom:0;
+		}
+	}
+}
+
 ul.crisismedia, .widget-area .textwidget ul.crisismedia
 {
 	list-style: none;
@@ -202,11 +230,6 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia
 	color: #ffffff;
 }
 
-.widget-area aside
-{
-	border-bottom: 2px solid $backgroundFour;
-
-}
 
 .widget-area .widget li, .widget-area .widget .textwidget
 {

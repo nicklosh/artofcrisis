@@ -3,18 +3,30 @@
 	text-transform: uppercase;
 }
 
+.tribe-events-list h2.tribe-events-page-title {
+	margin-bottom: 15px;
+	border-bottom: 2px solid #000000;
+	padding-bottom: 22px;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
 .tribe-events-list-separator-month{
 	text-transform: uppercase;
 	text-align: left;
 	margin: 0;
 	padding: 0;
 }
+.tribe-events-list-separator-month:after{
+	border-bottom: 2px solid #000000;
+}
 .tribe-events-list-separator-month span{
 	padding: 0 15px 0 0;
 }
 .tribe-events-list .vevent.hentry
 {
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 2px solid #000000;
 }
 .tribe-events-loop .vevent.tribe-events-last
 {
@@ -33,3 +45,7 @@
 	color: #FDEF39;
 }
 
+.single-tribe_events #tribe-events-footer, .tribe-events-day #tribe-events-footer, .events-list #tribe-events-footer, .tribe-events-map #tribe-events-footer, .tribe-events-photo #tribe-events-footer
+{
+	border-top: 0;
+}

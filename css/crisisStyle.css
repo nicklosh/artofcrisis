@@ -46,9 +46,8 @@ body.custom-background-empty .site, body.custom-background-white .site {
   border-right: 5px solid black; }
   .site-content article {
     border-bottom: 2px solid black; }
-
-.widget-area {
-  margin-top: 0; }
+    .site-content article:last-child {
+      border-bottom: 0; }
 
 /*main nav*/
 .js .selectnav {
@@ -120,10 +119,22 @@ body.custom-background-empty .site, body.custom-background-white .site {
     .themonic-nav li ul li a:hover {
       color: #fdef39;
       background-color: black;
-      text-decoration: none; } }
+      text-decoration: none; }
+
+  .themonic-nav li ul li:last-child a {
+    border-bottom: 0; } }
 /*main content*/
 .wrapper {
   border: none; }
+
+.archive-header, .page-header {
+  border-bottom: 2px solid black; }
+
+.archive-title, .page-title {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #444; }
 
 .entry-header .entry-title {
   text-transform: uppercase;
@@ -166,6 +177,13 @@ body.custom-background-empty .site, body.custom-background-white .site {
   .excerpt-article {
     margin-left: 200px; } }
 /*sidebar*/
+.widget-area {
+  margin-top: 0; }
+  .widget-area aside {
+    border-bottom: 2px solid black; }
+    .widget-area aside:last-child {
+      border-bottom: 0; }
+
 ul.crisismedia, .widget-area .textwidget ul.crisismedia {
   list-style: none; }
   ul.crisismedia li, .widget-area .textwidget ul.crisismedia li {
@@ -179,9 +197,6 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia {
   background: black;
   text-transform: uppercase;
   color: #ffffff; }
-
-.widget-area aside {
-  border-bottom: 2px solid black; }
 
 .widget-area .widget li, .widget-area .widget .textwidget {
   padding-top: 0;
