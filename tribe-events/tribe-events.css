@@ -4,14 +4,22 @@
 }
 
 .tribe-events-list h2.tribe-events-page-title {
-	margin-bottom: 15px;
-	border-bottom: 2px solid #000000;
+	margin-bottom: 0px;
 	padding-bottom: 22px;
 	font-size: 20px;
 	font-weight: normal;
 
 }
-
+.tribe-events-list .tribe-events-event-image
+{
+	float: none;
+	width: 100%;
+	margin: 0;
+}
+.tribe-events-list .tribe-events-event-image img 
+{
+	width: 180px;
+}
 .tribe-events-list-separator-month{
 	text-transform: uppercase;
 	text-align: left;
