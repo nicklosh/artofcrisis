@@ -79,7 +79,7 @@ $has_venue_address = ( $venue_address ) ? ' location': '';
 <?php do_action( 'tribe_events_before_the_content' ) ?>
 <div class="tribe-events-list-event-description tribe-events-content description entry-summary">
 	<?php the_excerpt() ?>
-	<a href="<?php echo tribe_get_event_link() ?>" class="tribe-events-read-more" rel="bookmark"><?php _e( 'more', 'tribe-events-calendar' ) ?></a>
+	&hellip; <a href="<?php echo tribe_get_event_link() ?>" class="tribe-events-read-more" rel="bookmark"><?php _e( 'more', 'tribe-events-calendar' ) ?></a>
 </div><!-- .tribe-events-list-event-description -->
 <?php if (tribe_event_featured_image()) : ?>
 </div>
