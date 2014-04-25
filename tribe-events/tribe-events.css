@@ -57,3 +57,7 @@
 {
 	border-top: 0;
 }
+.tribe-events-list-widget ol li
+{
+	margin-bottom: 10px;
+}
