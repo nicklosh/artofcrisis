@@ -222,6 +222,16 @@ text-align: center;
 			width: 100%;
 		}
 	}
+	.tribe-events-event-image{
+		img{
+			width: 170px;
+		}
+		a:hover{
+			img{
+				width: 180px;
+			}
+		}
+	}
 }
 
 /*sidebar*/

@@ -195,6 +195,10 @@ body.custom-background-empty .site, body.custom-background-white .site {
   .excerpt-thumb a:hover img {
     border: 0;
     width: 100%; }
+.excerpt-thumb .tribe-events-event-image img {
+  width: 170px; }
+.excerpt-thumb .tribe-events-event-image a:hover img {
+  width: 180px; }
 
 /*sidebar*/
 .widget-area {
