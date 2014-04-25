@@ -281,12 +281,17 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia
 	color: $info;
 }
 
-aside .tribe-events-event-image
+.tribe-events-event-image a
 {
-	a:hover{
-		background:transparent;
+	&:hover{
+		background: transparent;
+		.widget & {
+			background: transparent;
+		}
 	}
 }
+
+
 /*footer*/
 .site-wordpress{
 	padding-top: 10px;

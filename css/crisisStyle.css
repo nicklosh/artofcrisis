@@ -239,8 +239,10 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia {
 .instatime {
   color: #a3a3a3; }
 
-aside .tribe-events-event-image a:hover {
+.tribe-events-event-image a:hover {
   background: transparent; }
+  .widget .tribe-events-event-image a:hover {
+    background: transparent; }
 
 /*footer*/
 .site-wordpress {
