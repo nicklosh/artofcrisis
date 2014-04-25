@@ -209,6 +209,20 @@ text-align: center;
 	}
 }
 
+.excerpt-thumb  {
+	img{	
+		border: 5px solid $backgroundFour;
+		width:90%;
+		transition:.3;
+	}
+	a:hover {
+		background:transparent;
+		img{
+			border: 0;
+			width: 100%;
+		}
+	}
+}
 
 /*sidebar*/
 
@@ -257,7 +271,12 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia
 	color: $info;
 }
 
-
+aside .tribe-events-event-image
+{
+	a:hover{
+		background:transparent;
+	}
+}
 /*footer*/
 .site-wordpress{
 	padding-top: 10px;

@@ -186,6 +186,16 @@ body.custom-background-empty .site, body.custom-background-white .site {
   .excerpt-article {
     margin-left: 200px;
     min-height: 200px; } }
+.excerpt-thumb img {
+  border: 5px solid black;
+  width: 90%;
+  transition: .3; }
+.excerpt-thumb a:hover {
+  background: transparent; }
+  .excerpt-thumb a:hover img {
+    border: 0;
+    width: 100%; }
+
 /*sidebar*/
 .widget-area {
   margin-top: 0; }
@@ -224,6 +234,9 @@ ul.crisismedia, .widget-area .textwidget ul.crisismedia {
 
 .instatime {
   color: #a3a3a3; }
+
+aside .tribe-events-event-image a:hover {
+  background: transparent; }
 
 /*footer*/
 .site-wordpress {
