@@ -16,6 +16,14 @@
 
 a{
 	@include links;
+	[class^="icon-"], [class*=" icon-"]{
+		color: #444444;
+		transition:.3s ease 0s;
+	}
+	&:hover [class^="icon-"], &:hover [class*=" icon-"]
+	{
+		color:$linkHover;
+	}
 }
 
 body.custom-background{

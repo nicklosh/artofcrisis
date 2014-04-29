@@ -19,6 +19,11 @@ a {
     color: #fdef39;
     background-color: black;
     text-decoration: none; }
+  a [class^="icon-"], a [class*=" icon-"] {
+    color: #444444;
+    transition: .3s ease 0s; }
+  a:hover [class^="icon-"], a:hover [class*=" icon-"] {
+    color: #fdef39; }
 
 body.custom-background {
   background-color: #232323 !important; }
