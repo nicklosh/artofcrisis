@@ -29,6 +29,11 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-60.png" rel="icon" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-60.png" rel="apple-touch-icon" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/favicon-152.png" rel="apple-touch-icon" sizes="152x152" />
 </head>
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
