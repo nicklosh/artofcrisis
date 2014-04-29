@@ -25,9 +25,9 @@ a {
   a:hover [class^="icon-"], a:hover [class*=" icon-"] {
     color: #fdef39; }
 
-body.custom-background {
-  background-color: #232323 !important; }
-
+/*body.custom-background{
+	background-color: #232323 !important;
+}*/
 body.custom-background-empty .site, body.custom-background-white .site {
   margin-top: 0;
   background-color: white; }
@@ -88,6 +88,9 @@ body.custom-background-empty .site, body.custom-background-white .site {
     padding-bottom: 20px;
     margin-top: 0; } }
 @media screen and (min-width: 768px) {
+  body .site {
+    padding: 0; }
+
   #menuToggleUl {
     display: none; }
 
