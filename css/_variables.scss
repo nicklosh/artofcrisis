@@ -23,11 +23,17 @@ $backgroundFour:#000000;
 	color: $link;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition: .3s ease 0s;
+	@include transition;
 	&:hover{
 		color: $linkHover;
 		background-color: $linkHoverBG;
 		text-decoration: none;
 	}
 }
-
+@mixin transition($transition-property:all, $transition-time: .3s, $method: ease) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}

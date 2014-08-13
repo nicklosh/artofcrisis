@@ -18,7 +18,7 @@ a{
 	@include links;
 	[class^="icon-"], [class*=" icon-"]{
 		color: #444444;
-		transition:.3s ease 0s;
+		@include transition;
 	}
 	&:hover [class^="icon-"], &:hover [class*=" icon-"]
 	{
@@ -224,14 +224,12 @@ text-align: center;
 .excerpt-thumb  {
 	img{	
 		border: 5px solid $backgroundFour;
-		width:90%;
-		transition:.3;
+		@include transition;    
 	}
 	a:hover {
 		background:transparent;
 		img{
-			border: 0;
-			width: 100%;
+			border-color: $link;
 		}
 	}
 	.tribe-events-event-image{
